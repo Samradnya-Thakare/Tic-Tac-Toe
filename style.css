@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(178, 177, 177);
+    margin: 0;
+    padding: 0;
+}
+.board{
+    display: block;
+    width: fit-content;
+    margin: 40px auto;
+    background-color: grey;
+    box-shadow: 0 0 8px 5px rgb(0, 0, 0 ,0.3);
+    
+}
+.current-player{
+    text-align: center;
+}
+.box{
+    background-color:white ;
+    height:100px;
+    width: 100px;
+    margin: 5px;
+}
+.box:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px black;
+    transition: 0.3s;
+    border-radius: 5px 0 5px 0;
+}
+.row{
+    display: flex;
+}
+.app-title{
+    text-align: center;
+}
+.reset-button{
+    display: block;
+    margin: 0 auto;
+    background-color:#d9d9d9;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px 0 5px 0;
+    cursor: pointer;
+    padding: 4px;
+}
