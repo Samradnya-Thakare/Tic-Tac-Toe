@@ -1,4 +1,4 @@
-const board = ['-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1'];
+const board = [-1, -1, -1, -1, -1, -1, -1, -1, -1];
 let currentPlayer = "X";
 function renderBoard() {
     const allBoxes = document.querySelectorAll(".box");
