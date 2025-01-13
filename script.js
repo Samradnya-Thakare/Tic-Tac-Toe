@@ -54,7 +54,7 @@ function isPlayerPresent(place, player) {
     //player = "X" or "O"
    
 
-    place.foreach((place) => {
+    place.forEach((place) => {
         if (board[place] != player) {
             result = false;
         }
